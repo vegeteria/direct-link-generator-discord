@@ -30,6 +30,9 @@ import discord
 from discord.ext import commands
 # Add this import to load .env files
 from dotenv import load_dotenv
+from keep_alive import keep_alive
+
+keep_alive()
 
 # --- Bot Setup and Configuration ---
 
